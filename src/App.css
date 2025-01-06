@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family: 'Franklin Gothic Demi';
+  src: url('../Franklin\ Gothic\ Demi\ Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Franklin Gothic Demi', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.container {
+  background: #fff;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #d32f2f;
+  color: #fff;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header h1 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.main {
+  text-align: center;
+  padding: 20px;
+}
+
+.support-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: #d32f2f;
+}
+
+.profile-section {
+  margin: 20px 0;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #d32f2f;
+}
+
+.candidate-name {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.schedule {
+  background: #d32f2f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.schedule-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule-item p {
+  margin-left: 10px;
+}
+
+.vote-info {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.footer {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .contact-info {
+  font-size: 14px;
+  color: #555;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
